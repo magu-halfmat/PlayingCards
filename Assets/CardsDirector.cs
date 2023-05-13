@@ -21,6 +21,20 @@ public class CardsDirector : MonoBehaviour
     {
         
     }
+
+    public List<CardController> GetHighLowCards()
+    {
+        List<CardController> ret = new List<CardController>();
+
+        ret.AddRange(CreateCards(SuitType.Spade));
+        ret.AddRange(CreateCards(SuitType.Club));
+        ret.AddRange(CreateCards(SuitType.Diamond));
+        ret.AddRange(CreateCards(SuitType.Heart));
+
+        ShuffleCards(ret);
+
+        return ret;
+    }
     
     public void ShuffleCards(List<CardController> cards)
     {

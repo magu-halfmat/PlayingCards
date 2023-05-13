@@ -928,10 +928,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ebc50e5e6db54b43abff02790451718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardsDirector: {fileID: 0}
-  buttonHigh: {fileID: 0}
-  buttonLow: {fileID: 0}
-  textInfo: {fileID: 0}
+  cardsDirector: {fileID: 424482972404389383, guid: 924d3a38821e71b4bac5da2881a54fd3, type: 3}
+  buttonHigh: {fileID: 528029658}
+  buttonLow: {fileID: 1980043939}
+  textInfo: {fileID: 137799511}
 --- !u!4 &1905403640
 Transform:
   m_ObjectHideFlags: 0
